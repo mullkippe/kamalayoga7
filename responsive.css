@@ -1,0 +1,639 @@
+/* タブレット向けレイアウト */
+@media (max-width: 1000px) {}
+
+/* スマホ向けレイアウト
+
+
+作った順番は、
+①TOPページ
+②私達についてあaboutpage
+③アクセスページ
+④ヨガ・リトリートについて
+*/
+
+/* スマホ向けレイアウト */
+@media (max-width: 768px) {
+    
+
+    .header-list {
+        position: absolute;
+    }
+
+    .header-list li a {
+        font-size: 12px;
+
+    }
+
+    .header-list > ul {
+        display: block;
+
+    }
+
+    /* サブメニューリストcss */
+    .sub-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+
+    }
+
+    .sub-menu a {
+        display: block;
+    }
+
+    .header-list li a.drawer-brand {
+        color: black;
+        font-size: 14px;
+    }
+
+    .header-list li a.drawer-brand:hover {
+        margin-left: 20px;
+        transition: 0.5s;
+
+    }
+
+    .header-list li a.drawer-menu-item {
+        text-decoration: none;
+        color: white;
+        background-color: #95c2b6;
+
+    }
+ 
+    li.menu-item-has-children li a:hover {
+        color: black;
+        background-color: #95c2b6;
+}
+
+    .header-list.drawer-nav {
+        background-color: #95c2b6;
+    }
+
+
+    /* ホバーで子メニュー表示 */
+
+    li.menu-item-has-children li a:hover {
+
+        margin-left: 20px;
+        transition: 0.5s;
+    }
+
+
+    .header-list li.three {
+        padding-left: 0;
+    }
+
+
+    .commitmentcontainer {
+        display: block;
+    }
+    
+
+
+
+
+}
+
+@media (max-width: 670px) {
+
+    body {
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+
+    .heading h2 {
+        font-size: 20px;
+        padding-top: 40px;
+
+    }
+
+    .title {
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+
+
+    }
+
+    header {
+        padding-bottom: 9px;
+        padding-top: 1px;
+    }
+
+    header img {
+        width: 13.5%;
+    }
+
+    /*　　　header
+    　　　　　エリア　　　　　　　　*/
+
+
+    .more-button {
+        font-size: 13px;
+    }
+
+    .top-wrapper h2 span {
+        padding: 7px;
+        letter-spacing: 0.35em;
+    }
+
+    .toptext {
+        display: block;
+        margin-top: 22px;
+        margin-bottom: 20px;
+        column-count: 1;
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+
+    .top-wrapper h2 span {
+        font-size: 13px;
+
+    }
+
+    .top-wrapper h2 {
+        left: 0px;
+        z-index: 1;
+    }
+
+    .button-more {
+        padding-bottom: 22px;
+    }
+
+    /*　　　レッスン
+    　　　　　エリア　　　　　　　　*/
+
+    .lesson-text {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 25px;
+        color: rgb(51, 51, 51);
+        letter-spacing: .13em;
+    }
+
+    .menucontainer {
+        display: block;
+    }
+
+    .lessons {
+
+        margin-bottom: 20px;
+    }
+
+    .sheet {
+        font-size: 11px;
+        letter-spacing: .15em;
+        padding: 7px 5px;
+
+    }
+
+    /* ニュース一覧
+エリア　　　　　　　*/
+
+
+
+    .headingtwo h2 {
+        font-size: 20px;
+        padding-top: 190px;
+    }
+
+    .headingtwo .news {
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 47px;
+        font-weight: bold;
+        letter-spacing: .15em;
+    }
+
+    .headingtwo {
+        text-align: left;
+    }
+
+
+    .event {
+        font-size: 11px;
+        letter-spacing: .15em;
+        padding: 7px 5px;
+    }
+
+    dt {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    dd {
+        padding-bottom: 20px;
+        padding-left: 6.5em;
+        font-size: 12px;
+    }
+
+    /*　　　ブログ
+　　　　　エリア　　　　*/
+
+    .large-blog {
+        display: block;
+
+    }
+
+    .blog-imgarea {
+        display: block;
+    }
+
+    .large {
+        margin-left: 0px;
+    }
+
+    .blog-info h3 {
+        font-size: 1rem;
+    }
+
+
+    /*　　　ブログ
+　　　　小さいエリア　　　　*/
+    .smallarea {
+        display: block;
+    }
+
+
+
+    /*footer*/
+    .footer-contents {
+        display: block;
+    }
+
+    .footer-title {
+        padding-top: 16px;
+        margin-bottom: 12px;
+
+    }
+
+    .footer-top {
+        margin-top: 30px;
+    }
+
+    /*　　　Aboutpage（アバウトページ）
+　　　　top画像エリア　　*/
+
+    .about-wrapper h2 span {
+        font-size: 13px;
+        padding: 7px;
+        letter-spacing: 0.35em;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .about-title {
+        font-size: 19px;
+    }
+
+    .sea {
+        padding-bottom: 105px;
+    }
+
+    .introduction p {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .introduction {
+        padding: 21px 21px;
+    }
+
+    .menu a {
+        font-size: 8px;
+        padding: 14px 11px;
+        font-weight: bold;
+
+    }
+
+    .menu li {
+        font-size: 8px;
+    }
+
+
+    /*　　　かまらとは
+　　　　what is Kamara?　　*/
+    .concept-group {
+        flex-direction: column;
+    }
+
+    .concept-text {
+        padding-top: 8px;
+        font-size: 13px;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .concept-img {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .concept-group {
+        margin-top: 33px;
+    }
+
+
+    /*　　　代表紹介
+　　　　organizer profile　　*/
+
+    .organizer-intro {
+        display: block;
+
+    }
+
+    .organizer-img {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .organizer-text {
+        padding-top: 10px;
+        font-size: 13px;
+        letter-spacing: .04em;
+        line-height: 1.7;
+        text-align: justify;
+
+    }
+
+    .year {
+        padding-left: 29px;
+    }
+
+    .research-text {
+        padding-right: 20px;
+
+    }
+
+
+
+    /*　　　チーム
+　　　　かまらヨガに関わるヒト　　*/
+
+
+    .team-member {
+
+        flex-direction: column;
+    }
+
+    .license-list {
+        display: block;
+    }
+
+    .member-img {
+        width: 40%;
+
+    }
+
+    .order1 {
+        order: 1;
+    }
+
+    .order2 {
+        order: 2;
+    }
+
+
+
+    /*　　　アクセスページ
+    レスポンシブデザイン
+    */
+
+    #map {
+
+
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .access-img {
+        margin-top: 0;
+        padding-bottom: 204px;
+        background-position: center;
+        height: auto;
+
+    }
+
+    /*　　　ヨガリトリートページ（コンテンツ）
+    レスポンシブデザインすたーっっと
+    */
+
+    .access-img {
+        margin-top: 0;
+        margin-top: 0;
+        padding-bottom: 204px;
+        background-position: center;
+        height: auto;
+    }
+
+    .retreat-textwrapper p {
+        font-size: 12px;
+    }
+
+    /*　　　ある日の予定
+    schedule
+    */
+
+    .schedule-contents {
+        flex-direction: column;
+    }
+
+    .orderone {
+        order: 1;
+    }
+
+    .ordertwo {
+        order: 2;
+    }
+
+    .schedule-title {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .orderone .yasai {
+        text-align: left;
+    }
+
+    /*　　　お客様の声
+    　　　　　voices
+    
+    */
+
+    .voice-list {
+        display: block;
+    }
+
+    .prof {
+        padding-bottom: 10px;
+    }
+
+    /*　　　よくあるご質問
+    　　　　　Question
+    
+    */
+
+    .qa-list dl {
+        margin: 10px 0 0;
+    }
+
+    .qa-list dl:after {
+        top: 20px;
+        right: 20px;
+        width: 7px;
+        height: 7px;
+    }
+
+    .qa-list dl dt {
+        padding: 16px 16px 16px 50px;
+        font-size: 14px;
+    }
+
+    .qa-list dl dt::before {
+        font-size: 14px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .qa-list dl dd::before {
+        font-size: 14px;
+        left: 20px;
+        margin-top: 5px;
+    }
+
+    .qa-list dl dd {
+        margin: 0;
+        padding: 16px 16px 16px 50px;
+        font-size: 14px;
+    }
+
+    .qa-list dl dd p {
+        margin: 30px 0 0;
+    }
+
+    .qa-list dl dd p:first-child {
+        margin-top: 0;
+    }
+
+
+    /*　　　お問い合わせ
+    　　　　　コンタクトページ
+    
+    */
+
+
+    header img {
+        width: 13.5%;
+    }
+
+    .access-img {
+
+        padding-bottom: 166px;
+    }
+
+    .contact-intro {
+        margin-top: 5px;
+        padding: 20px 0 0;
+        font-size: 12px;
+
+    }
+
+    .intro-two {
+        font-size: 12px;
+    }
+
+    .contactFormRow {
+        display: block;
+    }
+
+    .contactFormRow label {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .required {
+        position: static;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+    }
+
+
+    /*　　　ニュース お知らせ　エリア
+    　　　　　レスポンシブ対応
+    
+    */
+    .news-container {}
+
+    .largearea {
+        display: block;
+        margin-top: 20px;
+
+    }
+
+    .blog-info h3 {
+        margin-top: 0;
+    }
+
+    /*　　　ブログ、NEWS
+    下の記事の　NEXT　PREVcss
+    
+    */
+
+    .prev-next-link {
+        display: flex;
+    }
+
+    .prev-next-link a {
+        flex: 1;
+    }
+
+    .prev-next-link a,
+    .prev-next-link a:first-child {
+        border: none;
+    }
+
+    .next-link {
+        text-align: right;
+    }
+
+    .l-sidebar {
+        display: none;
+    }
+
+    .news-contents {
+        margin-right: 0;
+    }
+
+    .thumb-wrap {
+        display: block;
+    }
+
+
+    .prev-next-link {
+        display: block;
+    }
+
+    .prev-next-label {
+        text-align: left;
+    }
+
+    .thumb-wrap {
+        text-align: left;
+    }
+
+    .commitmentcontainer {
+        display: block;
+    }
+
+
+
+}

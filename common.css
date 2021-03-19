@@ -1,0 +1,96 @@
+/* ★ルール
+common.css – 汎用的に使用する a タグや、h1 などの見出し要素、その他、汎用的なクラスのCSSを書く
+
+
+
+ここに記入していること
+・heading　の見出し(中央編)
+※設定するときは、各ページの親要素に、
+.kamara-concept .heading {
+    text-align: center;
+のようなcssを設定すること。
+
+＃＃＃＃＃＃＃＃＃＃                     */
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.heading {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.heading h2 {
+    font-size: 28px;
+    padding-top: 80px;
+    letter-spacing: .10em;
+    color: rgb(51, 51, 51);
+}
+
+.title {
+    font-size: 12px;
+    color: #b21f6e;
+    padding-top: 9px;
+    padding-bottom: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-weight: bold;
+    letter-spacing: .15em;
+}
+
+
+/* こだわりエリアは
+ここからです。（共通はTOPページ、アバウトページ）
+＃＃＃＃＃＃＃＃＃＃                     */
+
+
+.commitmentwrapper {
+    background-color: white;
+}
+
+.commitmentcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.kodawariimg {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.nature {
+    color: #95c2b6;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    text-align: center;
+    
+    font-size: 16px;
+    letter-spacing: 0.30em;
+}
+
+.commit {
+    
+    letter-spacing: 0.42em;
+    line-height: 2;
+    text-align: justify;
+    color: rgb(51, 51, 51);
+    padding-top: 3px;
+    padding-bottom: 25px;
+    
+    font-size: 12px;
+}
+
+.commitmentwrapper .heading {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+
